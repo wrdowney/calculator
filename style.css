@@ -83,12 +83,28 @@ body {
 }
 
 .display { 
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 6rem;
+    height: auto;
     background-color: var(--screen);
     margin-bottom: 1rem;
     border: 2px solid var(--border);
     border-radius: 4px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.last-display {
+    height: 2em;
+}
+
+.current-display {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: 0px;
+    
 }
     
 
