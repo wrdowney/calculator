@@ -1,0 +1,48 @@
+:root {
+    --background: #e7e7e7;
+    --font: #333333;
+    --border: #333333;
+    --screen: #eee;
+    --calculator: #aaa;
+    --btn: #eee;
+    --btn-hover: #ddd;
+    --btn-active: #ccc;
+    --btn-red: #faa;
+    --btn-red-hover: #e99;
+    --btn-red-active: #d88;
+    --btn-blue: #aaf;
+    --btn-blue-hover: #99e;
+    --btn-blue-active: #88d;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .25rem;
+    width: 100%;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.btn {
+    padding: 20px;
+    border: 2px solid var(--border);
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+
+.calculator {
+    width: 50%;
+}
