@@ -24,6 +24,42 @@ body {
     font-weight: bold;
 }
 
+.btn {
+    padding: 20px;
+    border: 2px solid var(--border);
+    font-size: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+    background-color: var(--btn);
+}
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+.btn:active {
+    background-color: var(--btn-active);
+}
+
+
+.btn-red {
+    background-color: var(--btn-red);
+}
+.btn-red:hover {
+    background-color: var(--btn-red-hover);
+}
+.btn-red:active {
+    background-color: var(--btn-red-active);
+}
+
+.btn-blue {
+    background-color: var(--btn-blue);
+}
+.btn-blue:hover {
+    background-color: var(--btn-blue-hover);
+}
+.btn-blue:active {
+    background-color: var(--btn-blue-active);
+}
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -35,13 +71,7 @@ body {
     grid-column: span 2;
 }
 
-.btn {
-    padding: 20px;
-    border: 2px solid var(--border);
-    font-size: inherit;
-    font-weight: inherit;
 
-}
 
 .calculator {
     width: 50%;
